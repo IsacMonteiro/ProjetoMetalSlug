@@ -57,30 +57,53 @@ section {
     padding-right: 70px;
 }
 
+
+/* Cria um card */
+.card-pesquisa {
+    position: absolute; /* Permite posicionar o card atrás de outros elementos */
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: #333;
+    border: 2px solid #FFD700; /* Borda dourada */
+    border-radius: 1rem; /* Borda arredondada */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7); /* Sombra para profundidade */
+    z-index: -1; /* Garante que o card fique atrás dos outros elementos */
+    padding: 2rem; /* Espaçamento interno */
+    display: flex; /* Facilita o alinhamento do conteúdo */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: center; /* Alinha horizontalmente o conteúdo */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites do card */
+}
+
+
 /* Estiliza a imagem das seções */
 section img {
     padding-bottom: 30px;
 }
 
+/* Estiliza o campo input */
 section input {
     width: 30rem; /* Largura dos inputs */
-    border: 2px solid #FFD700; /* Borda dourada para um visual metálico */
+    border: 2px solid #FFD700; /* Borda dourada */
     padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem; /* Borda arredondada */
+    border-radius: 0.7rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
     color: #616366; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
-    background: #2C2C2C; /* Fundo escuro com aparência metálica */
+    background: #2C2C2C;
     box-sizing: border-box; /* Inclui padding e border na largura total */
-    box-shadow: inset 0px 0px 5px #FFA500; /* Sombra interna para dar profundidade */
+    box-shadow: inset 0px 0px 5px #FFA500; /* Sombra interna para profundidade */
     font-family: 'ArmyFont';
     letter-spacing: 0.1rem; /* Espaçamento entre as letras */
 }
 
+/* Efeito do campo input */
 section input:focus {
     outline: none; /* Remove a linha padrão ao focar */
     border-color: #FF4500; /* Muda a cor da borda ao focar */
-    box-shadow: 0 0 10px #FF4500, inset 0px 0px 5px rgba(0, 0, 0, 0.7); /* Sombra externa laranja brilhante */
+    box-shadow: 0 0 10px #FF4500, inset 0px 0px 5px rgba(0, 0, 0, 0.7); /* Sombra externa laranja */
 }
 
 
