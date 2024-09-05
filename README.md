@@ -14,11 +14,5 @@ This project, developed for study purposes, applies the knowledge acquired durin
 - HTML, CSS, and JavaScript
 - Git/GitHub for version control
 
-## How to Run the Project
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/username/repository-name.git
-
 
 <img src="https://github.com/IsacMonteiro/ProjetoMetalSlug/blob/main/resources/img/readme-gif.gif" alt="Metal Slug GIF" width="100"/>
