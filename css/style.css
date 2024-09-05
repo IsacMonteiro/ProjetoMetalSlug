@@ -131,7 +131,6 @@ section button:hover {
 
 
 /* Estiliza a caixa de resultados da pesquisa --------------------------------------------------------- */
-/* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
     max-height: 80vh; /* Altura máxima da caixa de resultados para garantir visibilidade */
