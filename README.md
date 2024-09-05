@@ -21,4 +21,4 @@ This project, developed for study purposes, applies the knowledge acquired durin
    git clone https://github.com/username/repository-name.git
 
 
-[Metal Slug GIF](https://steamuserimages-a.akamaihd.net/ugc/255966002951682774/C7D3EB6FD10BF7D77F9B10C3D6A0FE35C7F3A623/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+[Metal Slug GIF](https://64.media.tumblr.com/d59c591c2d4a90709b43764a04135fb7/tumblr_nyk8fxxAja1u6jjy9o1_400.gifv)
