@@ -71,11 +71,9 @@ section input {
     color: #45474B; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     background: #2C2C2C; /* Fundo escuro com aparência metálica */
-    background-image: url('caminho/para/imagem-textura-metalica.png'); /* Opcional: textura metálica */
-    background-size: cover; /* Ajusta a textura ao tamanho do input */
     box-sizing: border-box; /* Inclui padding e border na largura total */
     box-shadow: inset 0px 0px 5px rgba(255, 0, 0, 0.5); /* Sombra interna para dar profundidade */
-    font-family: 'MetalSlugFont'; /* Fonte personalizada com estilo Metal Slug */
+    font-family: 'ArmyFont';
     letter-spacing: 0.1rem; /* Espaçamento entre as letras */
 }
 
