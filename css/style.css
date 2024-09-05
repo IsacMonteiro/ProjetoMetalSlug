@@ -1,7 +1,7 @@
 /* Importa a fonte armazenada localmente */
 @font-face {
     font-family: 'ArmyFont';
-    src: url('resources/fonts/armyFont.ttf') format('truetype');
+    src: url('/resources/fonts/armyFont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,6 +9,9 @@
 /* Estiliza o corpo da página */
 body {
     font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-image: url(/resources/img/metal-slug-background.png);
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir o fundo */
     background-color: #454a52;
     color: #fff; /* Define a cor da fonte padrão */
     display: flex; /* Usa Flexbox para layout */
@@ -25,7 +28,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%; /* Faz o cabeçalho ocupar toda a largura da página */
-    background-image: url('resources/img/placa-metal.jpg'); /* Imagem de fundo */
+    background-image: url('/resources/img/placa-metal.jpg'); /* Imagem de fundo */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     background-size: cover; /* Ajusta a imagem para cobrir o cabeçalho */
     text-align: center;
@@ -60,21 +63,18 @@ section {
 
 /* Cria um card */
 .card-pesquisa {
-    position: absolute; /* Permite posicionar o card atrás de outros elementos */
-    top: 10%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
+    margin-top: 200px;
+    margin-right: 50px;
+    width: 30%;
+    height: 50%;
     background: #333;
     border: 2px solid #FFD700; /* Borda dourada */
     border-radius: 1rem; /* Borda arredondada */
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7); /* Sombra para profundidade */
-    z-index: -1; /* Garante que o card fique atrás dos outros elementos */
     padding: 2rem; /* Espaçamento interno */
     display: flex; /* Facilita o alinhamento do conteúdo */
     align-items: center; /* Alinha verticalmente o conteúdo */
     justify-content: center; /* Alinha horizontalmente o conteúdo */
-    overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites do card */
 }
 
 
@@ -134,7 +134,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%; /* Faz o rodapé ocupar toda a largura da página */
-    background-image: url('resources/img/placa-metal.jpg'); /* Imagem de fundo */
+    background-image: url('/resources/img/placa-metal.jpg'); /* Imagem de fundo */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     background-size: cover; /* Ajusta a imagem para cobrir o rodapé */
     text-align: center;
