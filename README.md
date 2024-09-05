@@ -1,4 +1,4 @@
-# MISSION START!! Discovering the Characters of Metal Slug
+# MISSION START!! Discovering the Characters of Metal Slug!
 
 ## Exploring the iconic heroes of gaming
 
