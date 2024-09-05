@@ -21,4 +21,4 @@ This project, developed for study purposes, applies the knowledge acquired durin
    git clone https://github.com/username/repository-name.git
 
 
-![](resources/img/readme.gif)
+<img src="https://github.com/IsacMonteiro/ProjetoMetalSlug/blob/main/resources/img/readme-gif.gif" alt="Metal Slug GIF" width="300"/> ```
