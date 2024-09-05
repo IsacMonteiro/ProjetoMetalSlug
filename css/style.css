@@ -66,7 +66,7 @@ section {
     margin-top: 200px;
     margin-right: 50px;
     width: 30%;
-    height: 50%;
+    height: auto;
     background: #333;
     border: 2px solid #FFD700; /* Borda dourada */
     border-radius: 1rem; /* Borda arredondada */
@@ -127,6 +127,52 @@ section button:hover {
     background: linear-gradient(to right, #d1b100, #FFA500, #FF4500); /* Inverte o gradiente ao passar o mouse */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao passar o mouse */
 }
+
+
+
+/* Estiliza a caixa de resultados da pesquisa --------------------------------------------------------- */
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    max-height: 80vh; /* Altura máxima da caixa de resultados para garantir visibilidade */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    background-color: #2C2C2C; /* Cor de fundo para combinar com o fundo geral */
+    border: 2px solid #FFD700; /* Borda dourada para destacar a seção */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+    display: flex; /* Usa Flexbox para layout interno */
+    flex-direction: column; /* Alinha itens na vertical */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #333; /* Cor de fundo escura para combinar com o card de pesquisa */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Sombra leve para destacar */
+    display: flex; /* Usa Flexbox para layout interno */
+    flex-direction: column; /* Alinha itens na vertical */
+}
+
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-family: 'ArmyFont'; /* Fonte personalizada para consistência */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #FFD700; /* Cor dourada para destacar os títulos */
+    margin-bottom: 0.5rem; /* Espaçamento abaixo do título */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #B0B0B0; /* Cor do texto para contraste com o fundo escuro */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
 
 
 /* Estiliza o rodapé ---------------------------------------------------------------------------------- */
