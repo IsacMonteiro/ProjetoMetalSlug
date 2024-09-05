@@ -1,0 +1,135 @@
+/* Importa a fonte armazenada localmente */
+@font-face {
+    font-family: 'ArmyFont';
+    src: url('resources/fonts/armyFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #454a52;
+    color: #fff; /* Define a cor da fonte padrão */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%; /* Faz o cabeçalho ocupar toda a largura da página */
+    background-image: url('resources/img/placa-metal.jpg'); /* Imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir o cabeçalho */
+    text-align: center;
+    padding: 40px;
+    border-bottom: 5px solid #FFA500; /* Borda inferior laranja */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-family: 'ArmyFont';
+    padding-right: 30px;
+    font-size: 2.5rem; /* Tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    background: linear-gradient(to top, #FF4500, #FFA500, #FFD700); /* Gradiente de baixo para cima */
+    background-clip: text; /* Faz o gradiente aplicar-se ao texto */
+    color: transparent; /* Torna o fundo do texto transparente para exibir o gradiente */
+    margin: 0; /* Remove a margem padrão do título */
+}
+
+
+/* Estiliza as seções da página ----------------------------------------------------------------------- */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 10rem; /* Espaçamento abaixo de cada seção */
+    padding-right: 70px;
+}
+
+/* Estiliza a imagem das seções */
+section img {
+    padding-bottom: 30px;
+}
+
+section input {
+    width: 30rem; /* Largura dos inputs */
+    border: 2px solid #FFD700; /* Borda dourada para um visual metálico */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    background: #2C2C2C; /* Fundo escuro com aparência metálica */
+    background-image: url('caminho/para/imagem-textura-metalica.png'); /* Opcional: textura metálica */
+    background-size: cover; /* Ajusta a textura ao tamanho do input */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    box-shadow: inset 0px 0px 5px rgba(255, 0, 0, 0.5); /* Sombra interna para dar profundidade */
+    font-family: 'MetalSlugFont'; /* Fonte personalizada com estilo Metal Slug */
+    letter-spacing: 0.1rem; /* Espaçamento entre as letras */
+}
+
+section input:focus {
+    outline: none; /* Remove a linha padrão ao focar */
+    border-color: #FF4500; /* Muda a cor da borda ao focar */
+    box-shadow: 0 0 10px #FF4500, inset 0px 0px 5px rgba(0, 0, 0, 0.7); /* Sombra externa laranja brilhante */
+}
+
+
+
+/* Estiliza os botões dentro das seções --------------------------------------------------------------- */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 0.5rem; /* Borda arredondada */
+    background: linear-gradient(to right, #FF4500, #FFA500, #d1b100); /* Gradiente de fundo */
+    color: white; /* Cor do texto */
+    font-family: 'ArmyFont'; /* Fonte do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: all 0.3s ease; /* Transição suave para os efeitos de hover */
+}
+
+/* Hover do botão */
+section button:hover {
+    background: linear-gradient(to right, #d1b100, #FFA500, #FF4500); /* Inverte o gradiente ao passar o mouse */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao passar o mouse */
+}
+
+
+/* Estiliza o rodapé ---------------------------------------------------------------------------------- */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Faz o rodapé ocupar toda a largura da página */
+    background-image: url('resources/img/placa-metal.jpg'); /* Imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir o rodapé */
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #FFA500; /* Borda inferior laranja */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+}
+
+/* Estiliza o <p> do rodapé */
+.direitos{
+    font-family: 'ArmyFont';
+    font-size: medium;
+    background: linear-gradient(to top, #FF4500, #FFA500, #FFD700); /* Gradiente de baixo para cima */
+    background-clip: text; /* Faz o gradiente aplicar-se ao texto */
+    color: transparent; /* Torna o fundo do texto transparente para exibir o gradiente */
+    padding-right: 20px;
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
