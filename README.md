@@ -21,4 +21,4 @@ This project, developed for study purposes, applies the knowledge acquired durin
    git clone https://github.com/username/repository-name.git
 
 
-![Texto Alternativo](https://i.gifer.com/7Mbi.gif)
+[Metal Slug GIF\](https://i.gifer.com/7Mbi.gif)
