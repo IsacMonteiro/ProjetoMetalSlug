@@ -68,11 +68,11 @@ section input {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
+    color: #616366; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     background: #2C2C2C; /* Fundo escuro com aparência metálica */
     box-sizing: border-box; /* Inclui padding e border na largura total */
-    box-shadow: inset 0px 0px 5px rgba(255, 0, 0, 0.5); /* Sombra interna para dar profundidade */
+    box-shadow: inset 0px 0px 5px #FFA500; /* Sombra interna para dar profundidade */
     font-family: 'ArmyFont';
     letter-spacing: 0.1rem; /* Espaçamento entre as letras */
 }
