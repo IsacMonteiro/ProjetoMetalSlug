@@ -21,4 +21,4 @@ This project, developed for study purposes, applies the knowledge acquired durin
    git clone https://github.com/username/repository-name.git
 
 
-![GIF animado](https://imgur.com/gallery/marco-rossi-3-oXmpmq2)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/oXmpmq2"  ><a href="//imgur.com/a/oXmpmq2">Marco Rossi &lt;3</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
