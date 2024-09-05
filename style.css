@@ -1,4 +1,4 @@
-/* Importa a fonte e armazena localmente */
+/* Importa a fonte armazenada localmente */
 @font-face {
     font-family: 'ArmyFont';
     src: url('resources/fonts/armyFont.ttf') format('truetype');
