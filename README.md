@@ -21,4 +21,4 @@ This project, developed for study purposes, applies the knowledge acquired durin
    git clone https://github.com/username/repository-name.git
 
 
-![](https://github.com/IsacMonteiro/ProjetoMetalSlug/blob/main/resources/img/readme-gif.gif)
+![GIF animado](https://imgur.com/gallery/marco-rossi-3-oXmpmq2)
