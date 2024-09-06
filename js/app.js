@@ -20,6 +20,7 @@ function pesquisar() {
     let historia = "";
     let primeiraAparicao = "";
     let veiculoFavorito = "";
+    let tags = "";
 
     // Itera sobre a lista de personagens
     for (let dado of personagensMetalSlug) {
@@ -27,12 +28,14 @@ function pesquisar() {
         historia = dado.historia.toLowerCase();
         primeiraAparicao = dado.primeiraAparicao.toLowerCase();
         veiculoFavorito = dado.veiculoFavorito.toLowerCase();
+        tags = dado.tags.toLowerCase();
 
         // Verifica se o campo de pesquisa corresponde ao nome, história, primeira aparição ou veículo favorito
         if (nome.includes(campoPesquisa) || 
             historia.includes(campoPesquisa) || 
             primeiraAparicao.includes(campoPesquisa) || 
-            veiculoFavorito.includes(campoPesquisa)) {
+            veiculoFavorito.includes(campoPesquisa) || 
+            tags.includes(campoPesquisa)) {
             
             // Cria um novo elemento HTML para cada resultado encontrado
             resultados += `
