@@ -1,4 +1,4 @@
-# MISSION START!! Discovering the Characters of Metal Slug
+# MISSION START!! Discovering the Characters of Metal Slug!
 
 ## Exploring the iconic heroes of gaming
 
@@ -15,4 +15,4 @@ This project, developed for study purposes, applies the knowledge acquired durin
 - Git/GitHub for version control
 
 
-<img src="https://github.com/IsacMonteiro/ProjetoMetalSlug/blob/main/resources/img/readme-gif.gif" alt="Metal Slug GIF" width="100"/>
+<img src="https://github.com/IsacMonteiro/ProjetoMetalSlug/blob/main/resources/img/readme.png" alt="Metal Slug GIF" width="100"/>
