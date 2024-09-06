@@ -36,13 +36,13 @@ let personagensMetalSlug = [
       wiki: "https://metalslug.fandom.com/wiki/Fio_Germi"
   },
   {
-    nome: "Trevor Goodchild",
+    nome: "Trevor Spacey",
     historia: "Um soldado experiente e especialista em combate corpo a corpo, Trevor é conhecido por sua força e resistência.",
-    primeiraAparicao: "Metal Slug 3",
+    primeiraAparicao: "Metal Slug 4",
     imagem: "resources/img/personas/trevor.gif",
     veiculoFavorito: "Tanque",
     tags: "soldado corpo a corpo forte resistente",
-    wiki: "https://metalslug.fandom.com/wiki/Trevor_Goodchild"
+    wiki: "https://metalslug.fandom.com/wiki/Trevor_Spacey"
   },
   {
     nome: "Nadia Cassel",
