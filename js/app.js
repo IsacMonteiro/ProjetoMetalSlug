@@ -1,3 +1,8 @@
+// Função para remover acentos
+function removerAcentos(texto) {
+    return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 function pesquisar() {
     // Obtém a seção HTML onde os resultados serão exibidos
     let section = document.getElementById("resultados-pesquisa");
@@ -24,29 +29,35 @@ function pesquisar() {
 
     // Itera sobre a lista de personagens
     for (let dado of personagensMetalSlug) {
-        nome = dado.nome.toLowerCase();
-        historia = dado.historia.toLowerCase();
-        primeiraAparicao = dado.primeiraAparicao.toLowerCase();
-        veiculoFavorito = dado.veiculoFavorito.toLowerCase();
-        tags = dado.tags.toLowerCase();
+        let nome = removerAcentos(dado.nome.toLowerCase());
+        let historia = removerAcentos(dado.historia.toLowerCase());
+        let primeiraAparicao = removerAcentos(dado.primeiraAparicao.toLowerCase());
+        let veiculoFavorito = removerAcentos(dado.veiculoFavorito.toLowerCase());
+        let tags = removerAcentos(dado.tags.toLowerCase());
 
         // Verifica se o campo de pesquisa corresponde ao nome, história, primeira aparição, veículo favorito ou tags
-        if (nome.includes(campoPesquisa) || 
-            historia.includes(campoPesquisa) || 
-            primeiraAparicao.includes(campoPesquisa) || 
-            veiculoFavorito.includes(campoPesquisa) || 
+        if (nome.includes(campoPesquisa) ||
+            historia.includes(campoPesquisa) ||
+            primeiraAparicao.includes(campoPesquisa) ||
+            veiculoFavorito.includes(campoPesquisa) ||
             tags.includes(campoPesquisa)) {
-            
+
             // Cria um novo elemento HTML para cada resultado encontrado
             resultados += `
                 <div class="item-resultado">
-                    <h2>${dado.nome}</h2>
-                    <img src="${dado.imagem}" alt="Imagem de ${dado.nome}" />
-                    <p class="descricao-meta">${dado.historia}</p>
-                    <p class="descricao-meta"><strong>Primeira Aparição:</strong> ${dado.primeiraAparicao}</p>
-                    <p class="descricao-meta"><strong>Veículo Favorito:</strong> ${dado.veiculoFavorito}</p>
+                    <div class="imagem-container">
+                        <img src="${dado.imagem}" alt="Imagem de ${dado.nome}" />
+                    </div>
+                    <div class="descricao-container">
+                        <h2 class="titulo">${dado.nome}</h2>
+                        <p><strong>História:</strong> ${dado.historia}</p>
+                        <p><strong>Primeira Aparição:</strong> ${dado.primeiraAparicao}</p>
+                        <p><strong>Veículo Favorito:</strong> ${dado.veiculoFavorito}</p>
+                        <a class="link" href=${dado.wiki} target="_blank">Mais informações</a>
+                    </div>
                 </div>
             `;
+
         }
     }
 

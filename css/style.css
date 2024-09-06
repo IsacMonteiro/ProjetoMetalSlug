@@ -69,7 +69,7 @@ section {
     width: 30%;
     height: 340px;
     background: #333;
-    border: 2px solid #FFD700; /* Borda dourada */
+    border: 2px solid #FFD700;
     border-radius: 1rem; /* Borda arredondada */
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7); /* Sombra para profundidade */
     padding: 2rem; /* Espaçamento interno */
@@ -87,11 +87,11 @@ section img {
 /* Estiliza o campo input ----------------------------------------------------------------------------- */
 section input {
     width: 30rem; /* Largura dos inputs */
-    border: 2px solid #FFD700; /* Borda dourada */
+    border: 2px solid #FFD700;
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.7rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #616366; /* Cor do texto */
+    color: #bbbdc1; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     background: #2C2C2C;
     box-sizing: border-box; /* Inclui padding e border na largura total */
@@ -116,7 +116,7 @@ section button {
     border-radius: 0.5rem; /* Borda arredondada */
     background: linear-gradient(to right, #FF4500, #FFA500, #d1b100); /* Gradiente de fundo */
     color: white; /* Cor do texto */
-    font-family: 'ArmyFont'; /* Fonte do texto do botão */
+    font-family: 'ArmyFont';
     font-size: 1rem; /* Tamanho da fonte */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
@@ -133,45 +133,59 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa --------------------------------------------------------- */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
-    max-height: 80vh; /* Altura máxima da caixa de resultados para garantir visibilidade */
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    width: 40rem; /* Largura máxima da caixa de resultados */
+    max-height: 80vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     margin-right: 50px;
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
-    display: flex; /* Usa Flexbox para layout interno */
+    display: flex; /* Flexbox para layout interno */
     flex-direction: column; /* Alinha itens na vertical */
     flex-grow: 1;
 }
 
-/* Estiliza cada item de resultado */
+/* Define o estilo para cada item de resultado */
 .item-resultado {
-    width: 40rem;
-    background: #333;
-    border-radius: 0.6rem; /* Borda arredondada */
-    padding: 1rem; /* Espaçamento interno */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Sombra leve para destacar */
     display: flex; /* Usa Flexbox para layout interno */
-    flex-direction: column; /* Alinha itens na vertical */
+    gap: 1rem; /* Espaçamento entre a imagem e a descrição */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    padding: 1rem;
+    background: #444; /* Cor de fundo para os itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Sombra leve */
 }
 
+/* Estiliza o contêiner da imagem */
+.imagem-container {
+    flex: 0 0 auto; /* A imagem mantém seu tamanho definido */
+}
 
-/* Estiliza os títulos dentro dos itens de resultado */
-.item-resultado h2 {
-    font-family: 'ArmyFont'; /* Fonte personalizada para consistência */
-    font-size: 1.5rem; /* Tamanho da fonte */
-    color: #FFD700; /* Cor dourada para destacar os títulos */
-    margin-bottom: 0.1rem; /* Espaçamento abaixo do título */
+.imagem-container img {
+    width: auto; /* Largura da imagem */
+    height: 90px; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
+}
+
+/* Estiliza o contêiner de descrição */
+.descricao-container {
+    flex: 1; /* O contêiner de descrição ocupa o espaço restante */
+    color: #fff; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Estiliza o título dentro do contêiner de descrição */
+.descricao-container .titulo {
+    font-family: 'ArmyFont'; /* Fonte personalizada para o título */
+    font-size: 1.5rem; /* Tamanho da fonte do título */
+    color: #FFD700; /* Cor dourada para destacar o título */
+    margin: 0 0 0.5rem 0; /* Remove margem acima e define margem abaixo */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
 }
 
-/* Estiliza a descrição meta dentro dos itens de resultado */
-.descricao-meta {
-    color: #fff; /* Cor do texto para contraste com o fundo escuro */
-    margin: 0.5rem 0; /* Margem acima e abaixo */
-    font-size: 1rem; /* Tamanho da fonte */
+/* Estiliza os parágrafos dentro do contêiner de descrição */
+.descricao-container p {
+    margin: 0.5rem 0; /* Espaçamento entre linhas de informação */
 }
 
 
@@ -187,6 +201,14 @@ section button:hover {
     border: 2px solid #FFD700; /* Borda dourada */
     border-radius: 0.6rem; /* Borda arredondada */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+}
+
+
+/* Estiliza o link ------------------------------------------------------------------------------------ */
+.link{
+    font-size: small;
+    text-transform: uppercase;
+    color: #d1b100;
 }
 
 
