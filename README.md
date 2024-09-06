@@ -13,6 +13,17 @@ This project, developed for study purposes, applies the knowledge acquired durin
 
 - HTML, CSS, and JavaScript
 - Git/GitHub for version control
+  
+
+## Available Heroes
+
+- Marco Rossi
+- Fio Germi
+- Tarma Roving
+- Eri Kasamoto
+- Trevor Spacey
+- Nadia Cassel
+  
 
 ## Access
 
