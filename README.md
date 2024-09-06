@@ -16,7 +16,7 @@ This project, developed for study purposes, applies the knowledge acquired durin
 
 ## Access
 
-https://projeto-metal-slug.vercel.app/
+https://metal-slug-personagens.vercel.app/
 
 
 <img src="https://github.com/IsacMonteiro/ProjetoMetalSlug/blob/main/resources/img/readme.png" alt="Metal Slug GIF" width="100"/>
