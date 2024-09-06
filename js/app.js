@@ -11,7 +11,7 @@ function pesquisar() {
         resultados += `
             <div class="item-resultado">
                 <h2>${dado.nome}</h2>
-                <img src="${dado.imagem}" alt="${dado.nome}" />
+                <img src="${dado.imagem}" alt="" />
                 <p class="descricao-meta">${dado.historia}</p>
                 <p class="descricao-meta"><strong>Primeira Aparição:</strong> ${dado.primeiraAparicao}</p>
                 <p class="descricao-meta"><strong>Veículo Favorito:</strong> ${dado.veiculoFavorito}</p>

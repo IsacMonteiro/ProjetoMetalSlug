@@ -56,14 +56,14 @@ section {
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 10rem; /* Espaçamento abaixo de cada seção */
     padding-right: 70px;
 }
 
 
 /* Cria um card */
 .card-pesquisa {
-    margin-top: 200px;
+    margin-top: 155px;
+    margin-bottom: 30px;
     margin-right: 50px;
     width: 30%;
     height: auto;
@@ -136,22 +136,21 @@ section button:hover {
     max-height: 80vh; /* Altura máxima da caixa de resultados para garantir visibilidade */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    margin-right: 50px;
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
-    background-color: #2C2C2C; /* Cor de fundo para combinar com o fundo geral */
-    border: 2px solid #FFD700; /* Borda dourada para destacar a seção */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
     display: flex; /* Usa Flexbox para layout interno */
     flex-direction: column; /* Alinha itens na vertical */
 }
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #333; /* Cor de fundo escura para combinar com o card de pesquisa */
+    width: 40rem;
+    background: #333;
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Sombra leve para destacar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Sombra leve para destacar */
     display: flex; /* Usa Flexbox para layout interno */
     flex-direction: column; /* Alinha itens na vertical */
 }
@@ -162,12 +161,13 @@ section button:hover {
     font-family: 'ArmyFont'; /* Fonte personalizada para consistência */
     font-size: 1.5rem; /* Tamanho da fonte */
     color: #FFD700; /* Cor dourada para destacar os títulos */
-    margin-bottom: 0.5rem; /* Espaçamento abaixo do título */
+    margin-bottom: 0.1rem; /* Espaçamento abaixo do título */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #B0B0B0; /* Cor do texto para contraste com o fundo escuro */
+    color: #fff; /* Cor do texto para contraste com o fundo escuro */
     margin: 0.5rem 0; /* Margem acima e abaixo */
     font-size: 1rem; /* Tamanho da fonte */
 }
