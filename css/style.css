@@ -21,6 +21,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Impede a rolagem horizontal no corpo */
 }
 
 /* Estiliza o cabeçalho */
@@ -83,7 +84,7 @@ section img {
     padding-bottom: 30px;
 }
 
-/* Estiliza o campo input */
+/* Estiliza o campo input ----------------------------------------------------------------------------- */
 section input {
     width: 30rem; /* Largura dos inputs */
     border: 2px solid #FFD700; /* Borda dourada */
@@ -141,6 +142,7 @@ section button:hover {
     border-radius: 0.6rem; /* Borda arredondada */
     display: flex; /* Usa Flexbox para layout interno */
     flex-direction: column; /* Alinha itens na vertical */
+    flex-grow: 1;
 }
 
 /* Estiliza cada item de resultado */
@@ -176,7 +178,7 @@ section button:hover {
 
 /* Estiliza o rodapé ---------------------------------------------------------------------------------- */
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%; /* Faz o rodapé ocupar toda a largura da página */
     background-image: url('/resources/img/placa-metal.jpg'); /* Imagem de fundo */
