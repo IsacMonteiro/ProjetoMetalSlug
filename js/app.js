@@ -30,7 +30,7 @@ function pesquisar() {
         veiculoFavorito = dado.veiculoFavorito.toLowerCase();
         tags = dado.tags.toLowerCase();
 
-        // Verifica se o campo de pesquisa corresponde ao nome, história, primeira aparição ou veículo favorito
+        // Verifica se o campo de pesquisa corresponde ao nome, história, primeira aparição, veículo favorito ou tags
         if (nome.includes(campoPesquisa) || 
             historia.includes(campoPesquisa) || 
             primeiraAparicao.includes(campoPesquisa) || 
@@ -57,4 +57,4 @@ function pesquisar() {
 
     // Atribui os resultados gerados à seção HTML
     section.innerHTML = resultados;
-}
+};
