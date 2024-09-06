@@ -14,5 +14,9 @@ This project, developed for study purposes, applies the knowledge acquired durin
 - HTML, CSS, and JavaScript
 - Git/GitHub for version control
 
+## Access
+
+https://projeto-metal-slug.vercel.app/
+
 
 <img src="https://github.com/IsacMonteiro/ProjetoMetalSlug/blob/main/resources/img/readme.png" alt="Metal Slug GIF" width="100"/>
