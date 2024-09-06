@@ -29,7 +29,7 @@ let personagensMetalSlug = [
   {
       nome: "Fio Germi",
       historia: "Filha de uma rica família italiana, Fio é uma mercenária habilidosa e elegante.",
-      primeiraAparicao: "Metal Slug X",
+      primeiraAparicao: "Metal Slug 2 (1998)",
       imagem: "resources/img/personas/fio.gif",
       veiculoFavorito: "Helicóptero",
       tags: "mercenária helicóptero italiana",
