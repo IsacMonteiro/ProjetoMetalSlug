@@ -86,7 +86,7 @@ section img {
 
 /* Estiliza o campo input ----------------------------------------------------------------------------- */
 section input {
-    width: 30rem; /* Largura dos inputs */
+    width: 20rem; /* Largura dos inputs */
     border: 2px solid #FFD700; /* Borda dourada */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.7rem; /* Borda arredondada */
