@@ -175,6 +175,20 @@ section button:hover {
 }
 
 
+/* Estiliza a mensagem de "Nada foi encontrado" ------------------------------------------------------- */
+.nada-encontrado {
+    font-family: 'ArmyFont'; /* Usa a fonte personalizada */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #FFD700; /* Cor laranja vibrante */
+    background-color: #333;
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 1rem; /* Espaçamento interno */
+    margin-top: 2rem; /* Espaçamento superior */
+    border: 2px solid #FFD700; /* Borda dourada */
+    border-radius: 0.6rem; /* Borda arredondada */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+}
+
 
 /* Estiliza o rodapé ---------------------------------------------------------------------------------- */
 footer {
