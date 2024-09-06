@@ -67,7 +67,7 @@ section {
     margin-bottom: 30px;
     margin-right: 50px;
     width: 30%;
-    height: auto;
+    height: 340px;
     background: #333;
     border: 2px solid #FFD700; /* Borda dourada */
     border-radius: 1rem; /* Borda arredondada */
@@ -86,7 +86,7 @@ section img {
 
 /* Estiliza o campo input ----------------------------------------------------------------------------- */
 section input {
-    width: 20rem; /* Largura dos inputs */
+    width: 30rem; /* Largura dos inputs */
     border: 2px solid #FFD700; /* Borda dourada */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.7rem; /* Borda arredondada */
